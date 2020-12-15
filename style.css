@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: grey;
+}
+
+#imgNav {
+  margin: -5px;
+}
+
+#heading {
+  display: flex;
+  align-items: flex-start;
+  background-color: black;
+}
+
+#heading #navLink {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+#heading a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+}
+
+#heading img {
+  display: flex;
+  justify-content: flex-start;
+  width: 200px;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+}
+
+#textContent {
+  background-image: url("images/school.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: width / 2;
+}
